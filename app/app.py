@@ -623,7 +623,7 @@ async def handle_round_end(channel):
 
 
 
-
+keep_alive()
 
 # ボットのトークンを指定（注意: 実際のコードにはトークンをハードコードしないこと）
 bot.run(os.getenv("TOKEN"))
